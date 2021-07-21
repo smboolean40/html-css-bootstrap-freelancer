@@ -8,6 +8,12 @@
 .bg_secondary {
 	background-color: #1abc9c;
 }
+
+.wrapper_small {
+	max-width: 1000px;
+	width: 85%;
+	margin: auto;
+}
 /* Header */
 
 header {
@@ -36,6 +42,10 @@ section {
 }
 .porfolio_item img {
 	width: 100%;
+}
+
+#about {
+	color: #fff;
 }
 
 .circle {
