@@ -19,10 +19,23 @@ header {
 	width: 100%;
 }
 
+/* Main */
+section {
+	padding: 80px 0;
+}
+
 #hero {
 	margin-top: 80px;
 	color: #fff;
-	padding: 80px 0;
+}
+
+.porfolio_item {
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 10px 0;
+}
+.porfolio_item img {
+	width: 100%;
 }
 
 .circle {
