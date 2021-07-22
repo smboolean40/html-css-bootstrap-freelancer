@@ -141,6 +141,27 @@ footer {
 	padding: 30px 0;
 }
 
+.social_list {
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-left: 0px;
+}
+.social_list li:not(:last-child) {
+	margin-right: 15px;
+}
+.social_list li a {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	color: inherit;
+}
+
 .navbar-dark .navbar-nav .nav-link, 
 .navbar-dark .navbar-brand {
 	color: #fff;
